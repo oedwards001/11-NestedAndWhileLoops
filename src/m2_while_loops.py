@@ -1,5 +1,7 @@
+# Received assistance from Josh
+
 ###############################################################################
-# TODO: 1. (3 pts)
+# Done: 1. (3 pts)
 #
 #   For this _TODO_, write function called count() that takes one parameter:
 #       number  <-- int
@@ -25,8 +27,17 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 
+def count(number):
+    i = 1
+    while i <= number:
+        print(i)
+        i += 1
+count(5)
+
+        
+
 ###############################################################################
-# TODO: 2. (5 pts)
+# Done: 2. (5 pts)
 #
 #   For this _TODO_, write a function called adder() that will continually ask the use to enter a number (using user input) like so:
 #
@@ -48,6 +59,17 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+
+def adder():
+    number_chosen = 1
+    sum = 0
+    while number_chosen != 0:
+        number_chosen = int(input("Please Enter a Number: "))
+        sum = sum + number_chosen
+    print(f"The sum is {sum}.")
+adder()
+
+
 
 ###############################################################################
 # TODO: 3. EXTRA CREDIT (3 pts)

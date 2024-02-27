@@ -1,5 +1,7 @@
+# Received assistance from Josh
+
 ###############################################################################
-# TODO: 1. (3 pts)
+# Done: 1. (3 pts)
 #
 #   For this _TODO_, write a block of code that uses the list of numbers defined below and calculates the sum of all the numbers.
 #
@@ -8,10 +10,13 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
+sum = 0
+for x in nums:
+    sum = x + sum
+print(sum)
 
 ###############################################################################
-# TODO: 2. (3 pts)
+# Done: 2. (3 pts)
 #
 #   For this _TODO_, write a block of code that uses the string defined below and counts how many characters are in the string.
 #
@@ -23,3 +28,7 @@ nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ###############################################################################
 txt = "The quick brown fox jumps over the lazy dog."
 
+sum = 0
+for y in txt:
+    sum = sum + 1
+print(sum)
